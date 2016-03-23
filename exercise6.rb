@@ -24,6 +24,7 @@ while to_exit == false
 
         #Display groery items in array with asterisk
         when "display"
+            grocery_items.sort!
             grocery_items.each do |x|
                 puts "* #{x}"
             end
