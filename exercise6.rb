@@ -4,7 +4,6 @@
 #Purpose:  Create an application to edit and display an array of groceries in a list
 
 #Initialize variables
-#choice ||= ""
 to_exit = false #True exits loop
 grocery_items = [
       "carrots",
@@ -81,7 +80,7 @@ while to_exit == false
         to_exit = true
 
       else
-        puts "Error!"
+        puts "Error, try another command."
     end
 
   end
