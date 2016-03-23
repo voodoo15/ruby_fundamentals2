@@ -6,14 +6,17 @@
 
 def convert_celsius(temp)
 
+  #Convert temperature to celsius and return value
   temp_celsius = (temp.to_i - 32) * 5 / 9
 
   return temp_celsius.round(2)
 
 end
 
-puts "Convert to celsius:  "
+#Prompt user to enter temperature
+puts "Convert to celsius (from farenheit):  "
 
 temp = gets.chomp
 
+#Call convert_celsius function and output to user
 puts "Temp in celsius is:  #{ convert_celsius(temp) }"

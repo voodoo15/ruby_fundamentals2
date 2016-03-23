@@ -3,6 +3,7 @@
 #Date:  2016-03-23
 #Purpose:  Create an application to edit and display an array of groceries in a list
 
+#Initialize variables
 choice ||= ""
 to_exit = false #True exits loop
 
